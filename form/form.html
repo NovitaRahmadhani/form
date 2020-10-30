@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact-form">
+    <h1>Registrasi Siswa</h1>
+    <form>
+        <p>Nama</p>
+        <input type="text">   
+        
+        <span class="jenis_kelamin">Jenis kelamin</span>
+         <input type="radio" name="jk" value="L" checked/>Laki-laki
+         <input type="radio" name="jk" value="P" checked/>Perempuan 
+        <br />
+        <p>Email</p>
+        <input type="Email">
+        <p>password</p>
+        <input type="Password">
+        <p>Tempat Lahir</p>
+        <input type="text">
+        <p>Tanggal</p>
+        <label for="tanggal">Tanggal Lahir</label>
+        <input type="date" name="tanggal" id="tanggal">
+        <p>Alamat</p>
+        <input type="text">
+        <p>Pilih Jurusan</p>
+        <label id="jurusan">Pilih Jurusan</label>
+            <select id="pilih_jurusan">
+                <option value="">--Pilih--</option>
+                <option value="L">Teknik Informatika</option>
+                <option value="P">Sistem Informasi</option>
+            </select>
+            <p><input type="checkbox">Remember me</p>  
+        <input type="submit" value="Daftar"> 
+          
+    </form>
+   </div>
+
+</body>
+</html>
